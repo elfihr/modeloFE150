@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-light-050:#f2d8c7;
+    --color-light-100:#efbe9e;
+    --color-light-150:#FDAF7B;
+    --color-light-250:#BE7B72;
+    --color-light-300:#824D74;
+    --color-light-450:#401F71;
+}
+
+.navbar{
+    background: var(--color-light-450);
+    padding: 1rem 10%;
+    position: fixed;
+    width: 100%;
+    color: var(--color-light-050);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+/*=========================ERRO404=========================*/
+
+
+
+.content .erro{
+    font-size: 6rem;
+    text-align: center;
+}
